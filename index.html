@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Home</title>
+        <link rel="icon" href="img/logo.jpg"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".dropdown").click(function(){
+                    $(".submenu").toggle();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="menu">
+            <ul type="none">
+                <li class="menuitems" id="logo"><a href="#">Pizza World</a></li>
+                <li class="menuitems"><a href="#">Home</a></li>
+                <li class="dropdown"><a id="menu" href="#">Top Categories&nbsp; <i class="fa fa-caret-down"></i></a>
+                    <ul class="submenu" type="none">
+                        <li class="submenuitems"><a id="submenuitems" href="#">VEG PIZZA</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">NON-VEG PIZZA</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">PIZZA MANIA</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">SIDES ORDERS</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">BEVERAGES</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">CHOICE OF CRUSTS</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">BURGER PIZZA</a></li>
+                        <li class="submenuitems"><a id="submenuitems" href="#">CHOICE OF TOPPINGS</a></li>
+                    </ul>
+                </li>
+                <li class="menuitems"><a id="menu" href="#">Your Orders</a></li>
+                <li class="menuitems"><a id="menu" href="#">About Us</a></li>
+                <li class="menuitems"><a id="menu" href="#">Contact Us</a></li>
+            </ul>
+            <ul type="none">
+                <li class="menuitems">
+                    <input id="search-box" name="Search" type="search" placeholder="Search" autocomplete="off" required/>
+                    <input id="search-btn" name="Submit" type="submit" value="Search"/>
+                    <button id="cart-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"><path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg><i> Cart(0)</i></button>
+                    <button id="login-btn">Login</button>
+                    <button id="login-btn">SignUp</button>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div class="mainpage"><h3>Menu</h3></div>
+            <div class="card">
+                <div id="card">
+                    <img src="img/card-1.jpg" width="287px" height="277px"/>
+                    <h3>VEG PIZZA</h3>
+                    <p>A delight for veggie lovers! C...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+                <div id="card">
+                    <img src="img/card-2.jpg" width="287px" height="277px"/>
+                    <h3>NON-VEG PIZZA</h3>
+                    <p>Choose your favourite non-veg ...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+                <div id="card">
+                    <img src="img/card-3.jpg" width="287px" height="277px"/>
+                    <h3>PIZZA MANIA</h3>
+                    <p>Indulge into mouth-watering ta...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+                <div id="card">
+                    <img src="img/card-4.jpg" width="287px" height="277px"/>
+                    <h3>SIDES ORDERS</h3>
+                    <p>Complement your pizza with wid...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="card">
+                    <img src="img/card-5.jpg" width="287px" height="277px"/>
+                    <h3>BEVERAGES</h3>
+                    <p>Complement your pizza with wid...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+                <div id="card">
+                    <img src="img/card-6.jpg" width="287px" height="277px"/>
+                    <h3>CHOICE OF CRUSTS</h3>
+                    <p>Fresh Pan Pizza Tastiest Pan Pi...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+                <div id="card">
+                    <img src="img/card-7.jpg" width="287px" height="277px"/>
+                    <h3>BURGER PIZZA</h3>
+                    <p>Domino's Pizza introducing a...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+                <div id="card">
+                    <img src="img/card-8.jpg" width="287px" height="277px"/>
+                    <h3>CHOICE OF TOPPINGS</h3>
+                    <p>CHOICE OF TOPPINGS...</p>
+                    <button id="viewall-btn">View All</button>
+                </div>
+            </div>
+        </div>
+        <p class="web-footer">Copyright &copy; 2022 Designed by <span id="admin">@manshusharma</span></p>    
+    </body>
+</html>
