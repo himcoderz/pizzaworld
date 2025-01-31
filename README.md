@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on [https://himcoderz.github.io/pizzaworld/](https://himcoderz.github.io/pizzaworld/)
 
-- 👨‍💻 All of my projects are available at [https://github.io/himcoderz/](https://github.io/himcoderz/)
+- 👨‍💻 All of my projects are available at [https://github.com/himcoderz/](https://github.com/himcoderz/)
 
 - 💬 Ask me about **Html, Css, JavaScript, jQuery**
 
