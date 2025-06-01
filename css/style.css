@@ -50,7 +50,7 @@ a {
 }
 .submenu {
     position: absolute;
-    display: ;
+    display: none;
     left: 0px;
     top: 30px;
     background-color: #fff;
