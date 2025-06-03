@@ -245,13 +245,13 @@ a {
     }
     #logo {
         font-size: 20px;
-        left: 10px;
+        margin-inline-start: 15px;
         line-height: 50px;
     }
     #toggle-btn {
         color: #fff;
         position: absolute;
-        right: 10px;
+        right: 25px;
         font-size: 20px;
         line-height: 50px;
         cursor: pointer;
