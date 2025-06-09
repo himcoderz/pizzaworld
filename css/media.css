@@ -1,0 +1,161 @@
+@media ( min-width: 0px ) and ( max-width: 480px ) {
+    header {
+        flex-direction: column;
+        align-items: normal;
+        height: auto;
+    }
+    #logo {
+        margin-inline-start: 15px;
+    }
+    #toggle-btn {
+        display: inline;
+    }
+    .menu {
+        display: none;
+        width: 94.5%;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .dropdown-items {
+        height: 32px;
+        line-height: 32px;
+        width: 90.5%;
+    }
+    .dropdown {
+        padding-top: 0px;
+        padding-bottom: 15px;
+        height: 30px;
+        line-height: 30px;
+        width: 92.8%;
+        display: none;
+    }
+    .dropdown-menu {
+        width: 95%;
+        top: 95%;
+        left: 3%;
+    }
+    #search-box {
+        width: 70%;
+        margin: 0px;
+        border-radius: 0.25rem 0rem 0rem 0.25rem;
+    }
+    #search-btn {
+        width: 30%;
+        margin: 0px;
+        border-radius: 0rem 0.25rem 0.25rem 0rem;
+    }
+    #cart-btn, #login-btn, #signup-btn {
+        margin: 0px 4px 0px 0px;
+    }
+    .heading {
+        width: 90%;
+    }
+    footer {
+        height: 50px;
+        line-height: 25px;
+    }
+}
+@media ( min-width: 481px ) and ( max-width: 1024px ) {
+    header {
+        flex-direction: column;
+        align-items: normal;
+        height: auto;
+    }
+    #logo {
+        margin-inline-start: 15px;
+    }
+    #toggle-btn {
+        display: inline;
+    }
+    .menu {
+        display: none;
+        width: 94.5%;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .dropdown-items {
+        height: 32px;
+        line-height: 32px;
+        width: 90.5%;
+    }
+    .dropdown {
+        padding-top: 0px;
+        padding-bottom: 15px;
+        height: 30px;
+        line-height: 30px;
+        width: 95.6%;
+        display: none;
+    }
+    .dropdown-menu {
+        width: 95%;
+        top: 95%;
+        left: 3%;
+    }
+    #search-box {
+        width: 70%;
+        margin: 0px;
+        border-radius: 0.25rem 0rem 0rem 0.25rem;
+    }
+    #search-btn {
+        width: 30%;
+        margin: 0px;
+        border-radius: 0rem 0.25rem 0.25rem 0rem;
+    }
+    #cart-btn, #login-btn, #signup-btn {
+        margin: 0px 4px 0px 0px;
+    }
+    .heading {
+        width: 90%;
+    }
+}
+@media ( min-width: 1025px ) and ( max-width: 1366px ) {
+    header {
+        flex-direction: column;
+        align-items: normal;
+        height: auto;
+    }
+    #logo {
+        margin-inline-start: 15px;
+    }
+    #toggle-btn {
+        display: inline;
+    }
+    .menu {
+        display: none;
+        width: 94.5%;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .dropdown-items {
+        height: 32px;
+        line-height: 32px;
+        width: 90.5%;
+    }
+    .dropdown {
+        padding-top: 0px;
+        padding-bottom: 15px;
+        height: 30px;
+        line-height: 30px;
+        width: 95.6%;
+        display: none;
+    }
+    #search-box {
+        width: 70%;
+        margin: 0px;
+        border-radius: 0.25rem 0rem 0rem 0.25rem;
+    }
+    #search-btn {
+        width: 30%;
+        margin: 0px;
+        border-radius: 0rem 0.25rem 0.25rem 0rem;
+    }
+    #cart-btn, #login-btn, #signup-btn {
+        margin: 0px 4px 0px 0px;
+    }
+}
