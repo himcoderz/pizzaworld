@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Home</title>
+        <link rel="icon" href="img/logo.jpg"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/media.css"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul type="none">
+                <li id="logo"><a style="color: #fff;" href="#">Pizza World</a><span id="toggle-btn">&#9776;</span></li>
+                <li class="menu"><a style="color :#fff;" href="#">Home</a></li>
+                <li class="dropdown"><a href="#">Top Categories&nbsp;<span>&#9662;</span></a>
+                    <ul class="dropdown-menu" type="none">
+                        <li class="dropdown-items"><a href="#">VEG PIZZA</a></li>
+                        <li class="dropdown-items"><a href="#">NON-VEG PIZZA</a></li>
+                        <li class="dropdown-items"><a href="#">PIZZA MANIA</a></li>
+                        <li class="dropdown-items"><a href="#">SIDES ORDERS</a></li>
+                        <li class="dropdown-items"><a href="#">BEVERAGES</a></li>
+                        <li class="dropdown-items"><a href="#">CHOICE OF CRUSTS</a></li>
+                        <li class="dropdown-items"><a href="#">BURGER PIZZA</a></li>
+                        <li class="dropdown-items"><a href="#">CHOICE OF TOPPINGS</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="#">Your Orders</a></li>
+                <li class="menu"><a href="#">About Us</a></li>
+                <li class="menu"><a href="#">Contact Us</a></li>
+            </ul>
+            <ul type="none">
+                <li class="menu"><input id="search-box" type="search" placeholder="Search" autocomplete="off" required/><input id="search-btn" type="submit" value="Search"/></li>
+                <li class="menu"><button id="cart-btn"><i class="fa fa-shopping-cart"></i><i> Cart (0)</i></button><button id="login-btn">Login</button><button id="signup-btn">SignUp</button></li>
+            </ul>
+        </header>
+        <div>
+            <div class="heading">
+                <h3>Menu</h3>
+            </div>
+            <div class="card-row">
+                <div id="product">
+                    <img src="img/card-1.jpg"/>
+                    <h3>VEG PIZZA</h3>
+                    <p>A delight for veggie lovers! C...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+                <div id="product">
+                    <img src="img/card-2.jpg"/>
+                    <h3>NON-VEG PIZZA</h3>
+                    <p>Choose your favourite non-veg ...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+                <div id="product">
+                    <img src="img/card-3.jpg"/>
+                    <h3>PIZZA MANIA</h3>
+                    <p>Indulge into mouth-watering ta...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+                <div id="product">
+                    <img src="img/card-4.jpg"/>
+                    <h3>SIDES ORDERS</h3>
+                    <p>Complement your pizza with wid...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+            </div>
+            <div class="card-row">
+                <div id="product">
+                    <img src="img/card-5.jpg"/>
+                    <h3>BEVERAGES</h3>
+                    <p>Complement your pizza with wid...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+                <div id="product">
+                    <img src="img/card-6.jpg"/>
+                    <h3>CHOICE OF CRUSTS</h3>
+                    <p>Fresh Pan Pizza Tastiest Pan Pi...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+                <div id="product">
+                    <img src="img/card-7.jpg"/>
+                    <h3>BURGER PIZZA</h3>
+                    <p>Domino's Pizza introducing a...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+                <div id="product">
+                    <img src="img/card-8.jpg"/>
+                    <h3>CHOICE OF TOPPINGS</h3>
+                    <p>Choice of Toppings...</p>
+                    <button id="product-btn">View All</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2022 Designed by <span id="admin">@himcoderz</span></p>
+        </footer>
+    </body>
+</html>
